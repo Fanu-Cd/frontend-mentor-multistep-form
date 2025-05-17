@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+multi-step-form-main/
 
 # next.js
 /.next/
