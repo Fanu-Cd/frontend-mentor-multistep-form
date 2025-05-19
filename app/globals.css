@@ -27,5 +27,95 @@
 
 body {
   margin: 0;
-  font-family: "Ubuntu" ,sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
+  min-height: 100vh !important;
+  min-width: 320px;
+  max-width: 100vw !important;
+  background-color: hsl(218, 100%, 97%) !important;
+}
+
+.sidebar-bg {
+  background-image: url("./assets/bg-sidebar-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sidebar-bg-sm {
+  background-image: url("./assets/bg-sidebar-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blue-950-bg {
+  background-color: hsl(213, 96%, 18%) !important;
+}
+
+.blue-500-border-on-focus:focus {
+  border: 1px hsl(213, 96%, 18%) solid !important;
+}
+
+.blue-950-txt {
+  color: hsl(213, 96%, 18%) !important;
+}
+
+.blue-300-bg {
+  background-color: hsl(228, 100%, 84%) !important;
+}
+
+.blue-100-bg {
+  background: hsl(218, 100%, 97%) !important;
+}
+
+.blue-50-bg {
+  background: hsl(231, 100%, 99%) !important;
+}
+
+.gray-500-bg {
+  background: hsl(231, 11%, 63%) !important;
+}
+
+.gray-500-txt {
+  color: hsl(231, 11%, 63%) !important;
+}
+
+.white-txt {
+  color: hsl(0, 100%, 100%) !important;
+}
+
+.purple-600-bg {
+  background-color: hsl(243, 100%, 62%) !important;
+}
+
+.gray-500-border {
+  border-color: hsl(231, 11%, 63%) !important;
+}
+
+.purple-600-txt {
+  color: hsl(243, 100%, 62%) !important;
+}
+
+.purple-600-border {
+  border-color: hsl(243, 100%, 62%) !important;
+}
+
+.purple-600-border-on-hover:hover {
+  border-color: hsl(243, 100%, 62%) !important;
+}
+
+.purple-600-txt-on-hover:hover {
+  color: hsl(243, 100%, 62%) !important;
+}
+
+.purple-500-bg-on-hover:hover {
+  background-color: hsl(243, 100%, 75%) !important;
+}
+
+.purple-200-border {
+  border-color: hsl(229, 24%, 87%) !important;
+}
+
+.purple-600-txt-on-hover:hover {
+  color: hsl(243, 100%, 62%) !important;
 }
